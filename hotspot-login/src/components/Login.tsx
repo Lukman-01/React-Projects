@@ -1,4 +1,4 @@
-//import loginImg from '../assets/ui.jpg'
+import loginImg from '../assets/75one.jpg'
 import backgroundImage from '../assets/UI_golden.jpg'; 
 import {TbWorldWww} from "react-icons/tb"
 import {BiLogoGmail} from "react-icons/bi";
@@ -11,7 +11,7 @@ export default function Login() {
     <div className='h-screen bg-cover bg-no-repeat grid grid-cols-1 sm:grid-cols-2 h-screen w-full' 
     style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className='hidden sm:block'>
-            {/* <img className='p-10 h-[550px] w-full object-cover' src={loginImg} alt="" />  */}
+            <img className='p-10 h-[550px] w-full object-cover' src={loginImg} alt="" /> 
         </div>
 
         <div className='flex flex-col justify-center'>
