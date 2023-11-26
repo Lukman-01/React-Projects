@@ -1,0 +1,33 @@
+/* App.css */
+
+.map-container {
+  position: relative;
+}
+
+.trip-info {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  z-index: 100; /* Ensure it's above the map */
+  width: 250px; /* Or any width you prefer */
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add other styles as needed */
+
+
+/* Make sure the rest of your map is not covering the trip info */
+.google-map {
+  z-index: 1;
+}
+
+.trip-info h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
